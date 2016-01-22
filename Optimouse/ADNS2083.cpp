@@ -3,8 +3,8 @@
  Copyright (c) 2008 Martijn The.  All right reserved.
  http://www.martijnthe.nl/
  
- Based on sketches by BenoÃ®t Rousseau.
- Updated by Arsenio Dev
+ Based on sketches by Benoît Rousseau.
+ 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
