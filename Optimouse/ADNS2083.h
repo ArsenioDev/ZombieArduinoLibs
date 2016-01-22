@@ -1,5 +1,5 @@
 /*
- ADNS2610.h - Part of optical mouse sensor library for Arduino
+ ADNS2083.h - Part of optical mouse sensor library for Arduino
  Copyright (c) 2008 Martijn The.  All right reserved.
  http://www.martijnthe.nl/
  
