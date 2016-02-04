@@ -5,9 +5,9 @@
 // Steve Hobley 2009 - www.stephenhobley.com
 
 #include <Wire.h>
-#include <PVision.h>
+#include <IRVision.h>
 
-PVision ircam;
+IRVision ircam;
 byte result;
 
 void setup()

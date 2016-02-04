@@ -4,8 +4,10 @@
 
 // Steve Hobley 2009 - www.stephenhobley.com
 
-#ifndef PVision_h
-#define PVision_h
+//Updated by Arsenio Dev 2016
+
+#ifndef IRVision_h
+#define IRVision_h
 
 #include "Arduino.h"
 #include <Wire.h>
@@ -26,11 +28,11 @@ struct Blob
    	byte number;
 };
 
-class PVision
+class IRVision
 {
 
 public:
-  	PVision();
+  	IRVision();
 
 	void init();   // returns true if the connection to the sensor established correctly
 	byte read();   // updated the blobs, and returns the number of blobs detected

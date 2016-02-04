@@ -3,16 +3,18 @@
 // http://www.kako.com/neta/2007-001/2007-001.html
 
 // Steve Hobley 2009 - www.stephenhobley.com
+//Updated by Arsenio Dev 2016
+
 /******************************************************************************
 * Includes
 ******************************************************************************/
-#include "PVision.h"
+#include "IRVision.h"
 #include <Wire.h>
 
 /******************************************************************************
 * Private methods
 ******************************************************************************/
-void PVision::Write_2bytes(byte d1, byte d2)
+void IRVision::Write_2bytes(byte d1, byte d2)
 {
     Wire.beginTransmission(IRslaveAddress);
     Wire.write(d1); Wire.write(d2);
@@ -23,7 +25,7 @@ void PVision::Write_2bytes(byte d1, byte d2)
 /******************************************************************************
 * Constructor
 ******************************************************************************/
-PVision::PVision()
+IRVision::IRVision()
 {
 	Blob1.number = 1;
 	Blob2.number = 2;
@@ -34,8 +36,8 @@ PVision::PVision()
 /******************************************************************************
 * Public methods
 ******************************************************************************/
-// init the PVision sensor
-void PVision::init ()
+// init the IRVision sensor
+void IRVision::init ()
 {
     IRsensorAddress = 0xB0;
     IRslaveAddress = IRsensorAddress >> 1;   // This results in 0x21 as the address to pass to TWI
@@ -51,7 +53,7 @@ void PVision::init ()
     delay(100);
 }
 
-byte PVision::read()
+byte IRVision::read()
 {
     //IR sensor read
     Wire.beginTransmission(IRslaveAddress);
