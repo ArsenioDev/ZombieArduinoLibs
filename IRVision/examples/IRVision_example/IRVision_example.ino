@@ -1,4 +1,4 @@
-// Example of using the PVision library for interaction with the Pixart sensor on a WiiMote
+// Example of using the IRVision library for interaction with the Pixart sensor on a WiiMote
 // This work was derived from Kako's excellent Japanese website
 // http://www.kako.com/neta/2007-001/2007-001.html
 
