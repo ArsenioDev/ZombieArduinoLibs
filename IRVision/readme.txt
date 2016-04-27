@@ -12,7 +12,9 @@ http://www.kako.com/neta/2007-001/2007-001.html
 
 Steve Hobley 2009 - www.stephenhobley.com
 
-Updated by Arsenio Dev 2016 - www.tminusarduino.com
+Updated by Arsenio Dev 2016 - www.tminusarduino.blogspot.com
+
+Confirmed operational 2/24/16 by 3rd party tester
 
 Installation
 --------------------------------------------------------------------------------
